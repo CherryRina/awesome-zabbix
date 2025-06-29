@@ -1,5 +1,4 @@
 ## Table of Contents
----
 1. awesome-zabbix Project
 2. What is Zabbix
 3. Components
@@ -7,16 +6,13 @@
 5. Zabbix Workflow
 
 ## awesome-zabbix Project
----
 As part of my learning process, this repository covers core Zabbix concepts, architecture, monitoring workflows, hands-on configurations, and automation techniques. It aims to build a strong foundation in infrastructure and application monitoring using Zabbix.
 
 ## What is Zabbix
----
 Zabbix is a [[monitoring]] tool. it is mainly used for infrastructure and applications but can also monitor servers, networks and cloud resources.
 It collects metrics and stores them inside a database for alerting and visualization.
 
 ## Components
----
 #### Core Architecture
 - **Server**: Core component - collects and stores data.
 - **Proxy**: This component is optional, used for distributed monitoring.
@@ -51,7 +47,6 @@ It collects metrics and stores them inside a database for alerting and visualiza
 - **Workflow**: A Trigger changes state to PROBLEM and if conditions are met an action is executed (run script/send email etc.)
 
 ## Monitoring Types
----
 - **agent**: system metrics from Zabbix agent 
 - **SNMP**: Network hardware like switches and routers
 - **IPMI**: hardware level monitoring
@@ -60,7 +55,6 @@ It collects metrics and stores them inside a database for alerting and visualiza
 - **Trapper**: Accepts push data from scripts or APIs
 
 ## Zabbix workflow
----
 1. Each monitored **host runs a Zabbix agent** (passive or active).
 2. Each host has items defined that **describes what data** to collect.
 3. **Items form into applications** for easier organization.
